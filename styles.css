@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+  }
+  p{
+    font-size: 30px;
+    color: #fff;
+  }
+  .story{
+    padding: 80px;
+  }
+  .drum-kit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .key {
+    border: 1px solid #fff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(120, 97, 251) 97, 251;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+  }
+
+  
+  .key kbd {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .sound {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
+  .playing {
+    background-color: #ff4500; /* Change the color when a key is pressed */
+  }
+  

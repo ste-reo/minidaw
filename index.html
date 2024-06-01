@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Drums</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="story">
+    <p>MINI DIGITAL AUDIO WORK-STATION</p>
+    <p>The purpose of this project is to create an engaging and interactive demonstration to showcase the functionalities and intricacies of a DAW.
+  
+      A DAW is a powerful tool used in music production, enabling users to compose, record, edit, and produce music in a digital environment. Through this demonstration, we aim to provide a hands-on experience for users to understand the key features of a DAW, such as virtual instruments, audio processing, and real-time interaction.
+      
+      This project is not just about creating music; it's an exploration of the intersection between technology and creativity. By offering a simplified yet immersive DAW experience on our website, we hope to demystify the world of digital music production and inspire individuals to explore their own musical creativity.
+      
+      Feel free to explore the DAW on our website, experiment with different sounds, and gain a better understanding of the underlying processes involved in music production. Whether you're a seasoned musician or someone curious about the world of digital audio, we believe this demonstration will provide an enjoyable and informative experience.</p>  
+  </div>
+  <div class="drum-kit">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">Clap</span>
+      <audio data-key="65" src="sounds/clap.wav"></audio>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">Hi-Hat</span>
+      <audio data-key="83" src="sounds/hihat.wav"></audio>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">Kick</span>
+      <audio data-key="68" src="sounds/kick.wav"></audio>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">Open Hat</span>
+      <audio data-key="70" src="sounds/openhat.wav"></audio>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+      <span class="sound">Snare</span>
+      <audio data-key="71" src="sounds/snare.wav"></audio>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
